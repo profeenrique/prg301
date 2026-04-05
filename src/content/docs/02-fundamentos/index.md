@@ -26,20 +26,20 @@ Al finalizar esta unidad, serás capaz de:
 ## Mapa de contenidos
 
 1. Variables
-    - [Qué es una variable](/fundamentos/variables/que-es-una-variable)
-    - [Tipos de datos](/fundamentos/variables/tipos-de-datos)
-    - [Tipado dinámico](/fundamentos/variables/tipado-dinamico)
-    - [Conversión de tipos](/fundamentos/variables/conversion-de-tipos)
+    - [Qué es una variable](./variables/que-es-una-variable)
+    - [Tipos de datos](./variables/tipos-de-datos)
+    - [Tipado dinámico](./variables/tipado-dinamico)
+    - [Conversión de tipos](./variables/conversion-de-tipos)
 2. Operadores
-    - [Aritméticos](/fundamentos/operadores/aritmeticos)
-    - [Operadores avanzados](/fundamentos/operadores/operadores-avanzados)
-    - [Comparación](/fundamentos/operadores/comparacion)
-    - [Lógicos](/fundamentos/operadores/logicos)
+    - [Aritméticos](./operadores/aritmeticos)
+    - [Operadores avanzados](./operadores/operadores-avanzados)
+    - [Comparación](./operadores/comparacion)
+    - [Lógicos](./operadores/logicos)
 3. Interacción
-    - [Salida con print()](/fundamentos/interaccion/salida-print)
-    - [Entrada con input()](/fundamentos/interaccion/entrada-input)
+    - [Salida con print()](./interaccion/salida-print)
+    - [Entrada con input()](./interaccion/entrada-input)
 4. Recursos de apoyo
-    - [Glosario](/fundamentos/glosario)
+    - [Glosario](./glosario)
 
 ## Aplicación de la unidad
 

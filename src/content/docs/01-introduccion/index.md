@@ -24,20 +24,20 @@ Al finalizar esta unidad, serás capaz de:
 
 ## Mapa de contenidos
 
-1. [Historia y filosofía](/introduccion/historia)
+1. [Historia y filosofía](./historia-y-filosofia)
 2. Entorno de trabajo
-    - [Entorno de trabajo](/introduccion/entorno)
-    - [Instalación en Windows](/introduccion/entorno/instalacion-windows)
-    - [Instalación en macOS](/introduccion/entorno/instalacion-macos)
-    - [Instalación en Ubuntu](/introduccion/entorno/instalacion-ubuntu)
-    - [Visual Studio Code](/introduccion/entorno/vs-code)
+    - [Entorno de trabajo](./entorno)
+    - [Instalación en Windows](./entorno/instalacion-windows)
+    - [Instalación en macOS](./entorno/instalacion-macos)
+    - [Instalación en Ubuntu](./entorno/instalacion-ubuntu)
+    - [Visual Studio Code](./entorno/vs-code)
 3. Primeros pasos
-    - [¡Hola mundo!](/introduccion/primeros-pasos/hola-mundo)
-    - [Sintaxis básica](/introduccion/primeros-pasos/sintaxis-basica)
-    - [La terminal](/introduccion/primeros-pasos/terminal)
-    - [Errores comunes](/introduccion/primeros-pasos/errores-comunes)
+    - [¡Hola mundo!](./primeros-pasos/hola-mundo)
+    - [Sintaxis básica](./primeros-pasos/sintaxis-basica)
+    - [La terminal](./primeros-pasos/terminal)
+    - [Errores comunes](./primeros-pasos/errores-comunes)
 4. Recursos de apoyo
-    - [Glosario](/introduccion/glosario)
+    - [Glosario](./glosario)
 
 ## Aplicación de la unidad
 

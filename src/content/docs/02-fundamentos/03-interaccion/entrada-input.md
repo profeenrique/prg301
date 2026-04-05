@@ -113,6 +113,7 @@ Si el valor ingresado debe usarse como número, es necesario convertirlo. Por ej
 
 ```python
 edad = int(input("Escribe tu edad: "))
+
 print(edad)
 print(type(edad))
 ```
@@ -127,9 +128,9 @@ Escribe tu edad: 18
 
 En este caso:
 
-- `input()` recibe el dato como texto;
-- `int()` transforma ese texto en un entero;
-- el valor convertido se guarda en la variable.
+- `input()` recibe el dato como texto y lo muestra en pantalla
+- `int()` transforma ese texto en un número entero  
+- El valor convertido se guarda en la variable `edad`
 
 ### Conversión a decimal
 

@@ -139,6 +139,33 @@ Un error frecuente es olvidar las comillas al intentar mostrar un texto con `pri
 También es frecuente pensar que `print(nombre)` y `print("nombre")` hacen lo mismo, cuando en realidad uno muestra el valor de una variable y el otro muestra un texto.
 :::
 
+## Diferencia entre comas y f-strings
+
+Ambas formas son válidas. Sin embargo, las f-strings suelen resultar más claras cuando el mensaje combina varias variables o expresiones.
+
+```python
+nombre = "Sofía"
+
+print("Nombre:", nombre)
+print(f"Nombre: {nombre}")
+```
+
+La primera línea muestra el texto "Nombre:" seguido del valor de la variable `nombre`. La segunda línea utiliza una f-string para lograr lo mismo, pero con una sintaxis que puede resultar más legible. Salida esperada:
+
+```
+Nombre: Sofía
+Nombre: Sofía
+```
+
+Podemos observar que:
+
+- En ambos casos, la salida puede ser equivalente.
+- Las f-strings suelen resultar más claras cuando el mensaje combina varias variables o expresiones.
+
+:::tip[Buena práctica]
+Cuando necesites construir mensajes con variables, considera usar f-strings para que la salida sea más clara y fácil de leer.
+:::
+
 ## Saltos de línea
 
 Cada llamada a `print()` produce una salida en una nueva línea.

@@ -152,10 +152,10 @@ Cuando una instrucción no respeta la forma que Python espera, aparece un error.
 
 Por ejemplo, puede fallar una instrucción porque:
 
-- falta una comilla
-- falta un paréntesis
-- el nombre de la función está mal escrito
-- el texto no fue delimitado correctamente
+- Falta una comilla
+- Falta un paréntesis
+- El nombre de la función está mal escrito
+- El texto no fue delimitado correctamente
 
 Aprender sintaxis básica, por tanto, no consiste en memorizar reglas aisladas, sino en desarrollar el hábito de observar con atención cómo está escrita cada línea.
 

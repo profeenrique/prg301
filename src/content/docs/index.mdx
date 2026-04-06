@@ -1,40 +1,51 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Programación y Algoritmos
+description: Documentación de la asignatura organizada por unidades, contenidos y recursos de apoyo.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: PRG-301
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Comenzar
+      link: ./introduccion
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Ver Fundamentos
+      link: ./fundamentos
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Ruta de aprendizaje
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Introducción" icon="document" href="/introduccion/">
+    Entorno de trabajo, terminal, sintaxis inicial y primeros programas.
+  </Card>
+
+  <Card title="Fundamentos" icon="open-book" href="/fundamentos/">
+    Variables, tipos de datos, operadores e interacción básica.
+  </Card>
+
+  <Card title="Control de flujo" icon="setting" href="/control-de-flujo/">
+    Decisiones, ciclos y control del comportamiento del programa.
+  </Card>
+</CardGrid>
+
+## Cómo usar este sitio
+
+<CardGrid>
+  <Card title="Sigue el orden sugerido" icon="right-arrow">
+    Avanza por las unidades en secuencia para construir una base sólida.
+  </Card>
+
+  <Card title="Consulta cuando lo necesites" icon="search">
+    Usa los contenidos y glosarios como apoyo durante prácticas, tareas y repaso.
+  </Card>
+
+  <Card title="Prueba todo en código" icon="pencil">
+    Cada tema está pensado para estudiarse y comprobarse ejecutando programas reales.
+  </Card>
 </CardGrid>

@@ -271,10 +271,10 @@ La conversión de tipos no es una operación aislada. En realidad, forma parte d
 
 Cada vez que conviertes un valor, estás definiendo algo importante:
 
-- si debe tratarse como número o como texto
-- si puede participar en un cálculo
-- si servirá para construir una salida
-- si podrá evaluarse en una condición
+- Si debe tratarse como número o como texto
+- Si puede participar en un cálculo
+- Si servirá para construir una salida
+- Si podrá evaluarse en una condición
 
 Por eso, comprender la conversión de tipos no solo ayuda a evitar errores. También ayuda a pensar con mayor precisión qué papel cumple cada dato dentro del algoritmo.
 
